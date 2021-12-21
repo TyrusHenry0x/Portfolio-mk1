@@ -197,8 +197,8 @@ a.nav-link{
 	display: flex;
 	flex-direction: column;
 	margin: 20px;
-	width: 200px;
-	height:250px;
+	width: 250px;
+	height:200px;
 	border-radius:12px;
         background:var(--main-decor-color);
 }
@@ -353,16 +353,16 @@ hr {
     media queries
 ──────────────────*/
 
-@media only screen and (max-width: 1484px) and (min-width: 1214px) {
+/* @media only screen and (max-width: 1484px) and (min-width: 1214px) {
 	.work{
         padding:20px 20%;
     }
-}
-@media only screen and (max-width: 1214px) and (min-width: 1000px) {
+} */
+/* @media only screen and (max-width: 1214px) and (min-width: 1000px) {
 	.work{
         padding:20px 12%;
     }
-}
+} */
 
 
 @media only screen and (max-width: 500px) {
