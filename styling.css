@@ -21,10 +21,6 @@ main{
 	background: var(--main-background);
 }
 
-/*────────────────── 
-       header
-──────────────────*/
-
 header{
 	margin: 0 auto;
 	width: 100%;
@@ -80,10 +76,6 @@ a.nav-link{
     background: var(--main-decor-color);
 }
 
-/*──────────────────
-       home
-──────────────────*/
-
 #home{ 	
 	margin: auto;
 	height: 100vh;
@@ -121,7 +113,7 @@ a.nav-link{
 	text-align:center;
 }
 
- h3{
+h3{
 	padding-bottom: 15px;
         letter-spacing: normal;
         font-family: var(--main-font-family);
@@ -131,25 +123,20 @@ a.nav-link{
 	text-shadow: 0px 0px 40px var(--main-decor-color);
 }
 
-
-/*──────────────────
-    social media
-──────────────────*/
-
 .social-media{
 	padding: 10px;
 	display: flex;
 	position: center;
-        align-items: space-around;
+  align-items: space-around;
 	justify-content:center;
 }
 
 .social-media a {
-    margin: 10px;
-    font-size: 2rem;
-    text-align:center;
-    display: inline-block;
-    color: var(--main-fonts-color);
+  margin: 10px;
+  font-size: 2rem;
+  text-align:center;
+  display: inline-block;
+  color: var(--main-fonts-color);
 }
 
 .social-media a i{
@@ -161,23 +148,21 @@ a.nav-link{
 	text-shadow: 0 0 50px var(--main-decor-color);
 }
 
-/*──────────────────
-      projects
-──────────────────*/
-
 #projects{
 	margin-top:100px;
-        height: 100%;
+  height: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-        justify-content: center;
+  justify-content: center;
 	text-align:center;
 	color: var(--main-fonts-color);
 }
+
 #projects h3{
-    padding-top: 70px;
+  padding-top: 70px;
 }
+
 #projects p{
 	font-family: var(--main-font-family);
 	font-size:1.2rem;
@@ -187,8 +172,8 @@ a.nav-link{
 .work{
 	display: flex; 
 	flex: 1;
-        flex-wrap: wrap;
-        justify-content:center;
+  flex-wrap: wrap;
+  justify-content:center;
 	align-items: center;
 	padding: 20px;
 }
@@ -200,7 +185,7 @@ a.nav-link{
 	width: 250px;
 	height:200px;
 	border-radius:12px;
-        background:var(--main-decor-color);
+  background:var(--main-decor-color);
 }
 
 .card img{
@@ -222,18 +207,10 @@ a.nav-link{
 	text-decoration: none;
 }
 
-/* .card .work-content:hover{
-    color:#202020;
-} */
-
 .card:hover{
 	box-shadow: 0 0 1.5rem gray;
 
 }
-
-/*──────────────────
-      Contact
-──────────────────*/
 
 #contact{
 	margin: auto;
@@ -253,14 +230,10 @@ a.nav-link{
 	font-family: var(--main-font-family);
 }
 
-/*────────────────── 
-       footer
-──────────────────*/
-
 footer {
 	width: 100%;
 	height: 100%;
-        background-color: var(--main-header-background);
+  background-color: var(--main-header-background);
 }
 
 .copyright {
@@ -281,8 +254,6 @@ footer {
 	color: var(--main-decor-color);
 }
 
-/*──── hr ─────*/
-
 hr {
     background: var(--main-decor-color);
 	margin: 2px;
@@ -294,9 +265,6 @@ hr {
         margin-inline-end: auto;
 }
 
-/*────────────────── 
-     Scrollbar
-──────────────────*/
 ::-webkit-Scrollbar{
     width: 5px; 
 	background: rgba(5,5,5,1);
@@ -311,9 +279,6 @@ hr {
 	border-radius: 10px;
 }
 
-/*────────────────── 
-     hamburger
-──────────────────*/
 .hamburger {
 	display: none;
 }
@@ -348,22 +313,6 @@ hr {
 		transform:translatex(0px);
 	}
 }
-
-/*────────────────── 
-    media queries
-──────────────────*/
-
-/* @media only screen and (max-width: 1484px) and (min-width: 1214px) {
-	.work{
-        padding:20px 20%;
-    }
-} */
-/* @media only screen and (max-width: 1214px) and (min-width: 1000px) {
-	.work{
-        padding:20px 12%;
-    }
-} */
-
 
 @media only screen and (max-width: 500px) {
 
