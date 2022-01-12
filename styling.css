@@ -203,6 +203,7 @@ h3{
   justify-content:center;
 	align-items: center;
 	padding: 20px;
+  margin-bottom: 10px;
 }
 
 .card{
@@ -383,6 +384,11 @@ hr {
 	.nav-bar li{
 		opacity:0;
 	}
+
+  .social-media {
+    margin-bottom: 20px;
+  }
+
 }
 
 .nav-active{
