@@ -83,6 +83,19 @@ a.nav-link {
   background: var(--main-decor-color);
 }
 
+.caret-next {
+  color: white;
+}
+
+.bi-caret-down {
+  width: 20px;
+  height: 20px;
+}
+
+.bi-caret-down:hover {
+  color: var(--main-decor-color);
+}
+
 #home {
   margin: auto;
   height: 100vh;
@@ -480,6 +493,7 @@ hr {
   height: 40px;
   border: 2px solid #E55D10;
   margin-bottom: 10px;
+  border-radius: 6px;
 }
 
 #to-top-image {
