@@ -92,9 +92,17 @@ a.nav-link {
   height: 20px;
 }
 
-.bi-caret-down:hover {
+.bi-caret-down:hover, .arrow-up:hover {
   color: var(--main-decor-color);
 }
+
+.arrow-up {
+  width: 20px;
+  height: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
 
 #home {
   margin: auto;
@@ -480,12 +488,20 @@ hr {
   text-align: center;
 }
 
-#to-top-button {
+/* #to-top-button {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.arrow-up {
+
+
+#to-top-image {
+  width: 60px;
+  margin-bottom: 20px;
+} */
+
+
+/* .arrow-up {
   color: #FFA743;
   text-decoration: none;
   background-color: #E55D10;
@@ -494,13 +510,7 @@ hr {
   border: 2px solid #E55D10;
   margin-bottom: 10px;
   border-radius: 6px;
-}
-
-#to-top-image {
-  width: 60px;
-  margin-bottom: 20px;
-}
-
+} */
 @media(max-width: 1000px) {
   .section-div {
     grid-template-columns: none;
