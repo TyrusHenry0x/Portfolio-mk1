@@ -59,6 +59,7 @@ header:hover {
 }
 
 .nav-bar {
+  margin-top: 40px;
   list-style: none;
   position: relative;
   display: inline-flex;
@@ -115,7 +116,8 @@ a.nav-link {
 }
 
 #home .filter {
-  background: url('https://cdna.artstation.com/p/assets/images/images/021/720/920/original/pixel-jeff-mario.gif?1572709433&dl=1') no-repeat;
+  /* background: url('https://cdna.artstation.com/p/assets/images/images/021/720/920/original/pixel-jeff-mario.gif?1572709433&dl=1') no-repeat; */
+  background: url('https://img.freepik.com/free-vector/abstract-business-professional-background-banner-design-multipurpose_1340-16858.jpg?w=1380&t=st=1661784916~exp=1661785516~hmac=4b6b2d18113ad5166dee27daeaed3f27b655c66fb8bcc06b947db636349da507') no-repeat;
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -472,12 +474,12 @@ hr {
 @keyframes navLinkFade {
   from {
     opacity: 0;
-    transform: translatex(50px);
+    transform: translatey(50px);
   }
 
   to {
     opacity: 1;
-    transform: translatex(0px);
+    transform: translatey(0px);
   }
 }
 
@@ -562,15 +564,15 @@ hr {
     position: fixed;
     top: 0px;
     right: 0;
-    width: 60%;
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     background: var(--main-header-background);
-    transform: translatex(100%);
-    transition: transform 0.5s ease-in;
+    transform: translatey(-100%);
+    transition: transform 0.2s ease-in;
     z-index: -1;
   }
 
@@ -585,6 +587,9 @@ hr {
 
   .nav-bar li {
     opacity: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 44px;
   }
 
   .social-media {
