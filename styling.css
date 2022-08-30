@@ -6,7 +6,8 @@
   --main-fonts-color: #fff;
   --main-decor-color: #00a9e2;
   --sub-decor-color: #1a7b9b;
-  --main-header-background: #21252e;
+  /* --main-header-background: #21252e; */
+  --main-header-background: #060606;
   --main-font-family: 'Poppins', sans-serif;
 }
 
@@ -117,7 +118,7 @@ a.nav-link {
 
 #home .filter {
   /* background: url('https://cdna.artstation.com/p/assets/images/images/021/720/920/original/pixel-jeff-mario.gif?1572709433&dl=1') no-repeat; */
-  background: url('https://img.freepik.com/free-vector/abstract-business-professional-background-banner-design-multipurpose_1340-16858.jpg?w=1380&t=st=1661784916~exp=1661785516~hmac=4b6b2d18113ad5166dee27daeaed3f27b655c66fb8bcc06b947db636349da507') no-repeat;
+  background: url('https://www.goldmansachs.com/s/music-in-the-air/media/11fd52c80f75ee59f71fc06178b4fd79/animation-of-wave-motion-black-and-white-abstract-background-with-wavy-lines-of-dots-poster-frame-0-full.jpg') no-repeat;
   background-size: cover;
   background-position: center;
   position: absolute;
