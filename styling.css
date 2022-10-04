@@ -207,9 +207,9 @@ h3 {
   text-shadow: 0 0 50px var(--main-decor-color);
 }
 
-.about-me {
+#about-me {
   padding: 100px 0;
-  background-color: white;
+  background-color: #FAF9F6;
   /* background: url(https://img.freepik.com/free-vector/abstract-background-with-monochrome-low-poly-design_1048-14453.jpg?w=2000); */
   background-repeat: no-repeat;
   background-size: cover;
@@ -236,7 +236,7 @@ h3 {
 
 .about-me-h3 {
   font-family: var(--main-font-family);
-  color: #000080;
+  color: rgb(13, 12, 16);
   text-shadow: none;
 }
 
@@ -252,7 +252,7 @@ h3 {
   margin: 0 20% 0 20%;
   text-align: center;
   font-family: var(--main-font-family);
-  color: #000080;
+  color: rgb(56, 56, 56);
 }
 
 .about-me-p1 {
@@ -316,7 +316,7 @@ h3 {
   color: #0038E2;
 }
 
-.about-me::before {
+#about-me::before {
   content: "";
   position: absolute;
   
@@ -326,7 +326,7 @@ h3 {
   height: 50px;
   width: 100%;
   border-radius: 25px 25px 0 0;
-  box-shadow: 0 -25px 0 0 white;
+  box-shadow: 0 -25px 0 0 #FAF9F6;
 }
 
 #projects {
