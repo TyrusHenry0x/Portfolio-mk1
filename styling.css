@@ -92,6 +92,7 @@ a.nav-link {
 .bi-caret-down {
   width: 20px;
   height: 20px;
+  padding: 20px;
 }
 
 .bi-caret-down:hover, .arrow-up:hover {
@@ -117,8 +118,8 @@ a.nav-link {
 }
 
 #home .filter {
-  /* background: url('https://cdna.artstation.com/p/assets/images/images/021/720/920/original/pixel-jeff-mario.gif?1572709433&dl=1') no-repeat; */
-  background: url('https://www.goldmansachs.com/s/music-in-the-air/media/11fd52c80f75ee59f71fc06178b4fd79/animation-of-wave-motion-black-and-white-abstract-background-with-wavy-lines-of-dots-poster-frame-0-full.jpg') no-repeat;
+  background: url('https://cdna.artstation.com/p/assets/images/images/021/720/920/original/pixel-jeff-mario.gif?1572709433&dl=1') no-repeat;
+  /* background: url('https://www.goldmansachs.com/s/music-in-the-air/media/11fd52c80f75ee59f71fc06178b4fd79/animation-of-wave-motion-black-and-white-abstract-background-with-wavy-lines-of-dots-poster-frame-0-full.jpg') no-repeat; */
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -158,6 +159,7 @@ h3 {
   text-shadow: 0 0 5px var(--main-background), 0 0 15px var(--main-background), 0 0 25px var(--main-background), 0 0 35px var(--main-background), 0 0 50px var(--sub-decor-color),
     0 0 75px var(--sub-decor-color), 0 0 100px var(--sub-decor-color), 0 0 150px var(--sub-decor-color);
   animation: flicker 3s infinite alternate;
+  font-size: 80px;
 }
 
 @keyframes flicker {
@@ -205,6 +207,25 @@ h3 {
 .social-media a:hover {
   color: var(--main-decor-color);
   text-shadow: 0 0 50px var(--main-decor-color);
+}
+
+.contact-button {
+background-image: linear-gradient(to bottom right, var(--main-decor-color), #b2e7f8);
+width: 120px;
+height: 30px;
+margin: 0 auto 30px;
+padding: 10px 20px;
+border-radius: 5px;
+word-wrap: none;
+white-space:nowrap;
+text-decoration: none;
+}
+
+.contact-a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  font-family: var(--main-font-family);
 }
 
 #about-me {
