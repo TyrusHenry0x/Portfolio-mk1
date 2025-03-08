@@ -257,7 +257,7 @@ text-decoration: none;
 
 .about-me-h3 {
   font-family: var(--main-font-family);
-  color: rgb(13, 12, 16);
+  color: white;
   text-shadow: none;
 }
 
@@ -273,7 +273,7 @@ text-decoration: none;
   margin: 0 10% 0 10%;
   text-align: center;
   font-family: var(--main-font-family);
-  color: rgb(56, 56, 56);
+  color: white;
 }
 
 .about-me-p1 {
@@ -292,7 +292,7 @@ text-decoration: none;
 
 .project-scroll {
   text-decoration: none;
-  color: #000;
+  color: white;
   display: flex;
   align-items: center;
   height: 100%;
@@ -352,9 +352,11 @@ text-decoration: none;
   height: 50px;
   width: 100%;
   border-radius: 25px 25px 0 0;
-  box-shadow: 0 -25px 0 0 #FAF9F6;
+  box-shadow: 0 -25px 0 0 var(--main-background);
 }
-
+#fortnite {
+  color: pink;
+}
 #projects {
   margin-top: 100px;
   height: 100%;
