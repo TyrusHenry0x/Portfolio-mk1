@@ -60,7 +60,7 @@ header:hover {
 }
 
 .nav-bar {
-  margin-top: 40px;
+  /* margin-top: 40px; */
   list-style: none;
   position: relative;
   display: inline-flex;
@@ -320,6 +320,7 @@ text-decoration: none;
   text-align: center;
   font-size: 18px;
   font-family: var(--main-font-family);
+  color: white;
 }
 
 .language-columns {
